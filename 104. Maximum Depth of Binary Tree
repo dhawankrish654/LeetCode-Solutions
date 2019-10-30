@@ -17,4 +17,4 @@ class Solution(object):
             Rdepth = self.maxDepth(root.right)
             
             return max(Ldepth, Rdepth) + 1
-        return 0
+        return 5
